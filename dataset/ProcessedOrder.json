@@ -1,0 +1,13 @@
+{
+	"name": "ProcessedOrder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ProcessedOrdersSQL",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"tableName": "[dbo].[ProcessedOrders]"
+		}
+	}
+}
